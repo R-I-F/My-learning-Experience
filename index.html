@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- META TAGS -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- this tag makes the app look better on different devices /.doesnt shrink-->
+        <!-- FONT AWSOME CDN -->
+        <script src="https://kit.fontawesome.com/c378922f2f.js" crossorigin="anonymous"></script>
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+        <!-- TITLE -->
+        <title>My Learning Journal</title>
+    </head>
+    <body>
+        <header>
+            <i class="fa-solid fa-book"></i>
+            <h3>My learning journal</h3>
+            <p id="home-btn">Home</p>
+            <p id="about-me-btn">About me</p>    
+        </header>
+        <main>
+            <!-- FEATURED ARTICLE -->
+            <section id="article-featured-el" class="article-featured">
+                <h1>My new journey as a Scrimba student</h1>
+                <p>Embarking on a new journey with Scrimba, I've delved deep into front-end web development. Exploring HTML, CSS, JavaScript, and React, I've crafted a diverse skill set. Along the way, I've constructed and launched nearly 30 projects, marking a substantial leap in my proficiency and hands-on experience. <span id="read-more-el">Read more</span></p>
+                <p class="date">August 16, 2023</p>
+            </section>
+
+            <!-- READ MORE -->
+            <section id="read-more-sec-el" class="read-more-sec hidden ">
+                <div id="about-me-el" class="about-me hidden">
+                    <img class="profile-img" src="./images/profile.png" alt="Profile image of Ibrahim: selfie on a boat">                   
+                    <h1>Hi there! My name is Ibrahim and welcome to my learning journal</h1>
+                    <p>In 2 months, I've advanced to module 6 of 12 in Scrimba's Frontend Career Path. Post-module completion, I'll gain front-end experience at Digi360, followed by pursuing backend, databases, and Python.</p>
+                </div>
+                <div id="read-more-article-el" class="read-more-article">
+                    <h1>My new journey as a Scrimba student</h1>
+                    <p>Embarking on a new journey with Scrimba, I've delved deep into front-end web development. Exploring HTML, CSS, JavaScript, and React, I've crafted a diverse skill set. Along the way, I've constructed and launched nearly 30 projects, marking a substantial leap in my proficiency and hands-on experience. </p>                
+                    <img class="cover-img" src="./images/cover.jpg" alt="image of empty notebook beside a cup of coffee">
+                </div>
+                <h2>How I stay committed to learning</h2>
+                <p>I maintain unwavering commitment to learning, driven by a relentless desire to enhance my skills and fueled by an unbridled passion for technology. Employing the Pomodoro technique, I harness focused cycles to optimize productivity and ensure steady progress in my educational journey.</p>
+                <h2>How I got started</h2>
+                <p>My programming journey commenced with "Computer Science: An Interdisciplinary Approach." Midway, I secured an intern role at Digi 360, where I was advised to delve into JavaScript. Discovering Scrimba's Frontend Developer Path, I embarked on an immersive learning adventure.</p>
+                <span>Recent posts</span>
+            </section>
+            <!-- READ MORE -->
+
+            <!-- ARTICLES SECTION -->
+            <section class="grid-sec">  
+                <div>
+                    <img src="./images/architecture_design_school.jpg" alt="Image for a modern glass facade building">
+                    <h2 class="article-title">Architecture Major</h2>
+                    <p class="article-body">Throughout my architecture major, I explored buildings, landscapes, and urban design, gaining profound insights that enriched my understanding of spatial aesthetics and functionality.</p>
+                    <p class="article-date">August 16, 2023</p>
+                </div>
+                    
+                <div>
+                    <img src="./images/graphic_design.jpg" alt="image of a graphic designer working some graphics on a computer">
+                    <h2 class="article-title">Graphics Design</h2>
+                    <p class="article-body">In my graphics learning, I've mastered AutoCAD, Revit, 3ds Max, and Rhino 3D, honing skills that bring imaginative designs to life.</p>
+                    <p class="article-date"></pclass> August 16, 2023</p>
+
+                </div>
+
+                <div>
+                    <img src="./images/language_learning.jpg" alt="image of books stacked above each other">
+                    <h2 class="article-title">Deutsch & English</h2>
+                    <p class="article-body">My language journey involved mastering English for the IELTS exam (scoring 7), and achieving A2 proficiency in German at Goethe Institute.</p>
+                    <p class="article-date"></pclass> August 16, 2023</p>
+                </div>
+
+                <div>
+                    <img src="./images/paramatric_design.jpg" alt="image of a paramatric modern facade building">
+                    <h2 class="article-title">Paramatric Design</h2>
+                    <p class="article-body"> Exploring parametric design, I cultivated an affinity for computation and algorithms, nurturing a passion for innovative problem-solving within dynamic frameworks.</p>
+                    <p class="article-date"></pclass> August 16, 2023</p>
+                </div>
+
+                <div>
+                    <img src="./images/visual_programming.png" alt="Image of grasshopper (visual programming) interface">
+                    <h2 class="article-title">Visual Programming</h2>
+                    <p class="article-body">In my visual programming journey, I harnessed Grasshopper's power to craft 3D geometries through functions and algorithms, expanding creative horizons.</p>
+                    <p class="article-date"></pclass> August 16, 2023</p>
+
+                </div>
+
+                <div>
+                    <img src="./images/front_end_dev.jpg" alt="image of code in an integrated development environment">
+                    <h2 class="article-title">Front End Web Development</h2>
+                    <p class="article-body">My venture into parametric design and visual programming fueled a tech-driven curiosity, propelling me towards frontend web development studies. Excitement abounds in this new voyage.</p>
+                    <p class="article-date"></pclass> August 16, 2023</p>
+                </div>
+            </section>
+        </main>
+
+        <script src="index.js"></script>       
+    </body>   
+</html>
